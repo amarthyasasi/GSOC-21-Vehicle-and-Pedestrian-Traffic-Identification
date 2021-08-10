@@ -2,10 +2,10 @@ import numpy as np
 import math
 import os
 
-images = ['test_mono1.png']
+images = ['out_stiched_working.jpg']
 names = []
 bboxes_paths = []
-base_path = './yolov3/runs/detect/exp2/labels'
+base_path = './yolov3/runs/detect/exp3/labels'
 for image in images:
     names.append(image.split('.')[0])
 
